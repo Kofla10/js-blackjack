@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+   
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header class="title">
+        <h5>BlackJack</h5>
+    </header>
+
+    <div class="container-button">
+        <div id="divBotones" class="container-button-col">
+            <button id="newButton" class="newGame">Nuevo Juego</button>
+            <button id="getButton" class="getGame">Pedir Carta</button>
+            <button id="stopButton" class="stopGame">Detener Juego</button>
+        </div>
+    </div>
+
+    
+    <div class="jugador">
+        <h1 class="jugador-title">
+            Jugador 1 - <small>0</small>
+        </h1>
+        <div id="jugador-carta">
+            <!-- <img  class="carta" src="./assets/imgs/10C.png" alt="10C"> -->
+        </div>
+    </div>    
+
+    
+    <div class="computadora">
+        <h1 class="computadora-title">
+            Computadora - <small>0</small>
+        </h1>
+        <div id="computadora-carta">
+            <!-- <img  class="carta" src="./assets/imgs/7D.png" alt="10C"> -->
+        </div>
+    </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+    <script src="assets/js/game.js"></script>
+</body>
+</html>
